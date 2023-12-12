@@ -9,7 +9,11 @@ module.exports = {
         'primary-color' : '#111B47',
       },
       backgroundImage: {
-        'home-background-image' : "url('./assets/designer_1.png')"
+        'home-bg-img-big' : "url('./assets/designer_1.png')",
+        'home-bg-img-small' : "url('./assets/figure_computer.png')"
+      },
+      backgroundSize: {
+        '60%' : '50%',
       }
     },
   },
