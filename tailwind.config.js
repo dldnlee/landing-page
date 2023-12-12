@@ -10,7 +10,8 @@ module.exports = {
       },
       backgroundImage: {
         'home-bg-img-big' : "url('./assets/designer_1.png')",
-        'home-bg-img-small' : "url('./assets/figure_computer.png')"
+        'home-bg-img-small' : "url('./assets/figure_computer.png')",
+        'footer-bg' : "url('./assets/footer_bg.png')",
       },
       backgroundSize: {
         '60%' : '50%',

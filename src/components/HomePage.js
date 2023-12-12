@@ -7,7 +7,6 @@ export default function HomePage() {
     <div className='home-page-container 
     md:bg-home-bg-img-big
     bg-home-bg-img-small
-    
     bg-60%
     md:bg-contain
     h-screen 
