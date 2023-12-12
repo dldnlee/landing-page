@@ -6,7 +6,9 @@ function ButtonPrimary(props) {
     <div className="
     flex-grow
     text-center
-    py-1 
+    text-xl
+    py-4 
+    md:py-2
     bg-primary-color
     text-white 
     border-2
@@ -21,9 +23,11 @@ function ButtonPrimary(props) {
 function ButtonSecondary(props) {
   return (
     <div className="
-    flex-grow
+    flex-grow 
     text-center
-    py-1 
+    md:py-2
+    py-4 
+    text-xl
     bg-white
     text-primary-color 
     border-2

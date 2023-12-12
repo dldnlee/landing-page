@@ -29,9 +29,9 @@ export default function NavBar() {
   return (
     <nav className="
     navigation-bar-container bg-white text-primary-color 
-    flex justify-between items-center px-5 md:px-[5%] py-2 fixed 
-    w-full top-0 shadow-lg">
-      <ul className="flex py-5 gap-8 font-thin d-none hidden md:flex">
+    flex justify-between items-center px-5 py-2 fixed 
+    w-full top-0 shadow-lg md:px-40">
+      <ul className="flex py-5 gap-8 font-thin d-none hidden md:flex text-xl">
         <li><a href='/'>Home</a></li>
         <li><a href='/'>About</a></li>
         <li><a href='/'>Contact</a></li>
