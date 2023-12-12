@@ -13,8 +13,9 @@ export default function HomePage() {
     bg-white bg-no-repeat  bg-right-bottom
     flex items-center px-10 md:px-40'>
       <div className="flex flex-col gap-10 md:w-1/2">
-        <div>
-          <Article title={hello[0].title} content ={hello[0].content}/>
+        <div className="flex flex-col gap-10">
+          <h2 className="text-7xl font-extrabold text-primary-color">{hello[0].title}</h2>
+          <p className="text-2xl text-blue-900">{hello[0].content}</p>
         </div>
         <div className="flex flex-col md:flex-row gap-7 w-full md:justify-between">
           <ButtonPrimary text="Purchase Now" />
